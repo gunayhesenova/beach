@@ -1,0 +1,97 @@
+.left span{
+	border-radius: 50%;
+	border:1px solid white;
+	width: 70px !important;
+	height: 70px !important;
+	padding: 15px
+}
+.right span{
+	border-radius: 50%;
+	border:1px solid white;
+	width: 70px !important;
+	height: 70px !important;
+	padding: 15px
+}
+.leftbar{
+	padding: 46px;
+	width: 140px;
+	height: 700px;
+	background:#0C7BF8;
+	z-index:2;
+	float: left;
+	position: fixed;
+	left:18%;
+	transform:translateX(-250px);
+}
+.menu{
+	font-size: 50px;
+	color: white;
+	cursor: pointer;
+}
+.logo{
+	margin-top: 51px;
+	cursor: pointer;
+}
+.leftmenu{
+width: 250px;
+height: 700px;
+background:#0B72F0;
+z-index:999;
+position: fixed;
+transform:translateX(-250px);
+
+
+}
+.nopadding{
+	padding: 0
+}
+.leftmenu ul li {
+	padding: 15px;
+	list-style-type:none;
+}
+.leftmenu ul {
+	color:white;
+	margin-top: 40px
+}
+.leftmenu ul li:first-child{
+	font-size: 23px
+}
+.leftmenu a{
+	color: white;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+.leftmenu a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+}
+.leftmenu a:hover:after {
+	width: 100%;
+	background: white;
+}
+.pr{
+	
+	left:70% !important
+}
+.ne{
+	left:65%
+}
+.header h1{
+	position: absolute;
+	z-index: 1;
+	top:9%;
+	left:40%;
+	color: white;
+}
+.header span{
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
